@@ -1,0 +1,26 @@
+\begin{table}[!t]
+\centering
+\caption{Cohort characteristics for patients drawn from STARR. Data are grouped on the basis of age, sex, and the race and ethnicity category. Shown, for each group, is the number of patients extracted and the incidence of hospital mortality, prolonged length of stay, and 30-day readmission}
+\label{tab:cohort_starr_admissions}
+\begin{tabular}{llrrr}
+\toprule
+{} & {} & \multicolumn{3}{c}{Outcome Incidence} \\
+\cmidrule{3-5}
+Group &    Count &  Hospital Mortality &  Prolonged Length of Stay &  30-Day Readmission \\
+\midrule
+\lbrack18-30)  &   24,638 &              0.0069 &                     0.174 &              0.0455 \\
+\lbrack30-45)  &   47,177 &             0.00613 &                     0.129 &               0.039 \\
+\lbrack45-55)  &   28,847 &              0.0179 &                     0.208 &              0.0527 \\
+\lbrack55-65)  &   37,717 &              0.0251 &                     0.229 &              0.0556 \\
+\lbrack65-75)  &   38,555 &              0.0291 &                     0.238 &              0.0563 \\
+\lbrack75-90)  &   35,206 &              0.0408 &                     0.239 &              0.0555 \\
+Female   &  120,677 &              0.0162 &                     0.166 &              0.0453 \\
+Male     &   91,455 &              0.0275 &                     0.246 &              0.0572 \\
+Asian    &   30,551 &              0.0217 &                     0.176 &               0.054 \\
+Black    &    8,189 &              0.0199 &                     0.242 &              0.0602 \\
+Hispanic &   37,299 &              0.0186 &                     0.197 &              0.0534 \\
+Other    &   24,649 &              0.0294 &                     0.205 &              0.0431 \\
+White    &  111,452 &              0.0201 &                     0.205 &              0.0494 \\
+\bottomrule
+\end{tabular}
+\end{table}

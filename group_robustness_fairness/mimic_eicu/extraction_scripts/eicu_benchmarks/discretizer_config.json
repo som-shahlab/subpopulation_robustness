@@ -1,0 +1,50 @@
+{
+  "id_to_channel": [
+    "Heart Rate", 
+     "MAP (mmHg)",
+     "Invasive BP Diastolic",
+     "Invasive BP Systolic", 
+     "O2 Saturation", 
+     "Respiratory Rate", 
+     "Temperature (C)", 
+     "glucose",
+     "FiO2", 
+     "pH",
+     "GCS Total", 
+     "Eyes", 
+     "Motor", 
+     "Verbal",
+     "admissionheight", 
+     "admissionweight", 
+     "age",
+     "gender"
+  ],
+  "is_categorical_channel": {
+    "Heart Rate": false, 
+    "MAP (mmHg)": false,
+    "Invasive BP Diastolic": false,
+    "Invasive BP Systolic": false, 
+    "O2 Saturation": false, 
+    "Respiratory Rate": false, 
+    "Temperature (C)": false, 
+    "glucose": false,
+    "FiO2": false, 
+    "pH": false,
+    "GCS Total": true, 
+    "Eyes": true, 
+    "Motor": true, 
+    "Verbal": true,
+    "admissionheight": false, 
+    "admissionweight": false, 
+    "age": false,
+    "gender": false
+  },
+  "possible_values": {
+
+  },
+  "normal_values": {"Eyes": "4.0", "GCS Total": "15.0", "Heart Rate": 86, "Motor": "6.0", "Invasive BP Diastolic": 56,
+                     "Invasive BP Systolic": 118, "O2 Saturation": 98, "Respiratory Rate": 19,
+                     "Verbal": "5.0", "glucose": 128, "admissionweight": 81, "Temperature (C)": 36,
+                     "admissionheight": 170, "MAP (mmHg)": 77, "pH": 7.4, "FiO2": 0.21
+                    }
+}

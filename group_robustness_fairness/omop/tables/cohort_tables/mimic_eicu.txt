@@ -1,0 +1,23 @@
+\begin{table}[!t]
+\centering
+\caption{A caption}
+\label{tab:cohort_mimic_eicu}
+\begin{tabular}{lllll}
+\toprule
+ Group & \multicolumn{2}{l}{mimic} & \multicolumn{2}{l}{eicu} \\
+{} &   Count & In-hospital mortality &   Count & In-hospital mortality \\
+\midrule
+\lbrack18-30) &     873 &                 0.056 &   1,301 &                 0.073 \\
+\lbrack30-45) &   1,890 &                 0.086 &   2,578 &                 0.074 \\
+\lbrack45-55) &   2,916 &                 0.097 &   4,038 &                 0.090 \\
+\lbrack55-65) &   4,047 &                 0.109 &   6,458 &                 0.105 \\
+\lbrack65-75) &   4,410 &                 0.130 &   7,311 &                 0.116 \\
+\lbrack75-90) &   7,003 &                 0.184 &   8,994 &                 0.150 \\
+Female  &   9,510 &                 0.135 &  13,929 &                 0.116 \\
+Male    &  11,629 &                 0.130 &  16,751 &                 0.114 \\
+Black   &   2,015 &                 0.092 &   3,402 &                 0.096 \\
+Other   &   4,129 &                 0.163 &   3,623 &                 0.114 \\
+White   &  14,995 &                 0.129 &  23,655 &                 0.118 \\
+\bottomrule
+\end{tabular}
+\end{table}
